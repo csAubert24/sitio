@@ -1,0 +1,117 @@
+body{background: rgba(0, 0, 0, 0.900);}
+
+header{padding-top: 50px;}
+section{background: rgb(255 254 248);
+         color:#000;
+        border: 1px solid #fff;
+        padding: 50px;
+}
+img{max-width: 100%;
+    height: auto;}
+    .card-img-top{
+  max-height: 100%;
+  height: auto;
+  
+}
+.Cursos{background: rgb(255 254 248);
+    color:#000;
+   border: 1px solid #fff;
+   padding: 50px;}
+.Cursos li{color: #000;}
+.Cursos li:hover{color: rgb(14, 112, 198);}
+.nosotros h2{ text-align: center;}
+.columna1{width: 50%;}
+.columna2{width: 50%;}
+.contenedor-flexible{display: flex;
+    justify-content:space-between;background: #007bff;}
+.presentacion{background: url(../imagenes/teclado-azul2.jpg)no-repeat center fixed ;
+            padding-bottom: 120px;
+            text-align: center;
+            margin: 0px;}
+.presentacion h1{color:#fff;
+                font-size: 60px;
+                font-weight: 600;
+                ;}
+span{font-size: 30px;}
+.nosotros{padding: 30px 0px;}
+.columna0 img{width: 170px;height: auto;}
+.columna00{align-items: center;width: 50%;}
+.logo {width: 180px;}
+.cortes{margin: 30px 0px;}
+.cortesh,.servicios,.contacto{text-align: center;}
+main{background:url(../imagenes/textura-pared.jpg) repeat;
+     padding: 20px 0px;}
+footer{text-align: center;
+    background: transparent;}
+.titulos{font-family: 'Raleway', sans-serif;}
+.hh{font-size: 40px;}
+.nosotros,.servicios,.contacto,.productos{margin-bottom:40px;
+  box-shadow: 10px 10px 10px rgb(37, 37, 37);
+  background: rgb(41, 41, 41);
+  color:#fff;
+  border: 1px solid #fff;
+  padding: 50px;text-align: center;
+ border-radius: 3px;
+background: rgb(255 254 248);
+  color: black;}
+.content-image{ box-shadow:0pc 1px 10px rgba(0,0,0,0.2);}
+.iconos{font-size: 20px;
+        color: rgb(0, 0, 0);}    
+.nosotros{text-align: center;}
+.ul0 li{display: inline;margin: 0px 15px;
+    font-size: 25px;}
+.ul0 :hover{color: rgb(61, 61, 61)}
+.ul a{color: rgb(158, 156, 156)}
+.ns-i{color: rgb(153, 150, 150)}
+footer ul{display: block;
+          text-align: left;}
+footer li{margin:10px 0px;}
+.arrow{font-size: 30px;
+      color:  #007bff }
+.columna1c{text-align: left;}
+.navbar-light .navbar-toggler{background: #fff}
+.nav-item {margin: 0px 20px;}
+.navbar-light .navbar-nav .nav-link{border:#007bff solid 1px;color: #fff;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+         font-size: 20px;border-radius: 25px;}
+.navbar-light .navbar-nav .nav-link:hover {background:#fff;color:#007bff;border:solid 1px #fff;transition: 0.5s;} 
+.up-icon{font-size: 30px;}
+.Cul a{color: rgb(0, 0, 0);}
+.Cul li{text-align: left;margin-top: 30px}
+.cul {margin-top: 20px;}
+.cort{font-family: 'Raleway', sans-serif;
+        font-weight: 200;line-height: 40px;text-align: center;}
+.navbar-light .navbar-nav .nav-link {color: #fff}
+.contenedor1{display: flex;
+    width: 100%;
+    max-width: 1100px;}
+.cort{border-radius: 0px;
+      background:rgb(255 254 248);
+        color: black;
+        padding: 20px;
+        margin: 20px 0px;
+            justify-content: center;
+        border-bottom: 1px solid #000;}
+.cort img{border-radius: 6px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);}
+.navbar-nav .nav-link:hover{background: #fff;} 
+.logo{border-color: #000; margin: 5px;max-height:250px; max-width:250px}
+video{max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);}
+section p{color: #000;}    
+
+@media screen and (max-width: 800px){
+    .nosotros,.servicios,.contacto,.productos{box-shadow:0px 0px 0px;border-radius: 0%;}
+    .presentacion{text-align: left;}
+    .presentacion h1{font-size: 30px;}
+    header .titulos{text-align: center;}
+    .presentacion{background: url(../imagenes/teclado-azul-min.jpg) no-repeat center top fixed}
+    .navbar-light .navbar-nav .nav-link{border:none}
+    .navbar-light .navbar-nav .nav-link:hover{border:none}
+    .nosotros .col-md-4{margin: 20px;display: flex;justify-content: center;}
+    .navbar-light .navbar-nav .nav-link {color: black;background: #fff;margin: 5px 0px;text-align: center;}
+    .navbar-light .navbar-nav .nav-link:hover{background: rgb(226, 225, 225);transition: 0.5s;} 
+}
